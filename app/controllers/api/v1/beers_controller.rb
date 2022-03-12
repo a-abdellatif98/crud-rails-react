@@ -67,6 +67,4 @@ class Api::V1::BeersController < ApplicationController
       def beer_params
         params.require(:beer).permit(:brand, :style, :country, :quantity)
       end
-      ed
-    
-en
+    end
