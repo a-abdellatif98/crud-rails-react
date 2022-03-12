@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BeerTest < ActiveSupport::TestCase
+class Api::V1::BeersControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

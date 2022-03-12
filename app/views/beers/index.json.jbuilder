@@ -1,1 +1,1 @@
-json.array! @beers, partial: "beers/beer", as: :beer
+json.array! @beers, partial: 'beers/beer', as: :beer
